@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Login page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <style>
+        body {
+          background-color: #202020;
+        }
+        div.relative {
+            position: absolute;
+            bottom: 250px;
+            right: 0;
+            left: 57%;
+            width: 100px;
+            height: 100px;
+        }
+        .bg {
+          background: url('images/Xen maroon.png') no-repeat center center maroon;
+          width: 100%;
+          height: 230px;
+          top:0;
+          left:0;
+
+        }
+        .jumbotron h1 {
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        .jumbotron p{
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        h1 {
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        h2 {
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        label {
+          width: 180px;
+          clear: left;
+          text-align: right;
+          padding-right: 10px;
+          color: gold
+        }
+
+        input, label {
+          float:left;
+        }
+        </style>
+    </head>
+    <body>
+
+     <div class="jumbotron bg">
+       <h1><b>CMU Cyber Security LAB</b></h1>
+         <p><h2><b>Ways to Hack Every Operating System<b></h2></p>
+     </div>
+
+               <div class="container">
+                  <h1><b>Login</b></h1><br>
+                  <form class="form-horizontal" action="php_files/login.php" method="get">
+                       <div class="form-group">
+                          <label for="usrname" class="col-sm-2 control-label"> User-Name: </label>
+                            <div class="col-sm-10">
+                              <input type="text" name="userid" placeholder="User-Name"><br>
+                            </div>
+                      </div>
+                      <div class="form-group">
+                          <label for="pwd" class="col-sm-2 control-label"> Password:</label>
+                            <div class="col-sm-10">
+                              <input type="password" name="pswrd" placeholder="Password"><br><br><br>
+                            </div>
+                            <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                              <button href="php_files/login.php" type="submit" class="btn btn-danger">Login</button><br>
+                              </div>
+                            </div>
+                     </form>
+                     <form action="html_files/forgot_password.html" method="get">
+                       <div class="form-group">
+                         <div class="col-sm-offset-2 col-sm-10">
+                             <button href="html_files/forgot_password.html" type="submit" method="get" class="btn btn-danger">Forgot Password</button>
+                         </div>
+                      </div>
+                     </form>
+                     <form action="html_files/new_user.html" method="get">
+                       <div class="form-group">
+                         <div class="col-sm-offset-2 col-sm-10">
+                            <button href="html_files/new_user.html" type="submit" method="get" class="btn btn-danger">Create Account</button>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="relative">
+                          <img src="images/logos.png" alt="Logos" height="300" width="300">
+                        </div>
+              </div>
+            </body>
+</html>
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>New Account</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+        body {
+          background-color: #202020;
+        }
+        .bg {
+          background: url('../images/mavsTwo.png') no-repeat right maroon;
+          width: 100%;
+          height: 250px;
+          top:0;
+          right:0;
+        }
+
+        .jumbotron h1 {
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+          text-indent: 50px;
+        }
+        .jumbotron p{
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        h1 {
+          font-family: "Times New Roman", Times, serif;
+          color: gold;
+        }
+        label {
+          width: 180px;
+          clear: left;
+          text-align: right;
+          padding-right: 10px;
+          color: gold
+        }
+
+        input, label {
+          float:left;
+        }
+  </style>
+</head>
+
+
+<body>
+        <div class="jumbotron bg">
+                <h1><b>Creating a Xen User</b></h1>
+        </div>
+        <div class="container">
+            <h1><b>Account Information</b></h1><br>
+                <form class="form-horizontal" action="../php_files/add_user.php" method="get">
+                  <div class="form-group">
+                        <label for="firstName" class="col-sm-2 control-label"> First Name: </label>
+                          <div class="col-sm-10">
+                                <input type="text" class="form-control" name="firstname" placeholder="First"><br><br>
+                          </div>
+                  </div>
+                  <div class=form-group>
+                        <label for="lastName" class="col-sm-2 control-label"> Last Name: </label>
+                          <div class="col-sm-10">
+                                <input type="text" class="form-control" name="lastname" placeholder="Last"><br><br>
+                          </div>
+                  </div>
+                  <div class=form-group>
+                        <label for="username" class="col-sm-2 control-label"> User-Name: </label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="username" placeholder="User-Name"><br><br>
+                            </div>
+                  </div>
+                  <div class="form-group">
+                        <label for="email" class="col-sm-2 control-label"> Email: </label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="email" placeholder="E-Mail"><br><br>
+                            </div>
+                  </div>
+                  <div class="form-group">
+                        <label for="passwrd" class="col-sm-2 control-label"> Password: </label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="password1" placeholder="Password"><br><br>
+                            </div>
+                  </div>
+                  <div class="form-group">
+                        <label for="passwrd" class="col-sm-2 control-label"> Re-Enter Password: </label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" name="password2" placeholder="Re-Enter"><br><br>
+                            </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                         <button href="../php_files/add_user.php" type="submit" method="get" class="btn btn-danger btn-lg"> Create </button>
+                    </div>
+                  </div>
+                </form>
+          </div>
+      </body>
+</html>

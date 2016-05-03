@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Wrong Pass</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+            body {
+              background-color: #202020;
+            }
+            .other-color{
+              background: maroon;
+            }
+            div.relative {
+                position: absolute;
+                bottom: 300px;
+                right: 0;
+                left: 57%;
+                width: 100px;
+                height: 100px;
+            }
+            .jumbotron h1 {
+              font-family: "Times New Roman", Times, serif;
+              color: gold;
+              text-indent: 50px;
+            }
+            .jumbotron p{
+              font-family: "Times New Roman", Times, serif;
+              color: gold;
+            }
+            h1{
+              font-family: "Times New Roman", Times, serif;
+              color: gold;
+              right: 200px;
+            }
+            label {
+              width: 180px;
+              clear: left;
+              text-align: right;
+              padding-right: 10px;
+              color: gold
+            }
+
+            input, label {
+              float:left;
+            }
+      </style>
+</head>
+
+<div class="jumbotron other-color">
+  <h1><b>Uh-Oh! Wrong Password</b></h1>
+</div>
+
+<body>
+  <div class="container">
+    <h1><b>User Options</b></h1><br><br>
+    <div class="container">
+            <form class="form-vertical" action="../index.html" method="get">
+              <form class="form-group">
+                <div class="col-sm-offset-1 col-sm-10">
+                  <button href="../index.html" type="submit" method="get" class="btn btn-danger btn-lg ">Try Again
+                </div>
+             </form>
+    </div><br>
+    <div class="container">
+             <form class ="form-vertical" action="forgot_password.html" method="get">
+               <div class="form-group">
+                 <div class="col-sm-offset-1 col-sm-10">
+                   <button href="forgot_password.html" type="submit" method="get" class="btn btn-danger btn-lg">Forgot Password
+                </div>
+              </div>
+            </form>
+          </div><br>
+    <div class="relative">
+          <h1><b> STOP</b></h1>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
