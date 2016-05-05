@@ -1,3 +1,4 @@
+
 #!/bin/bash
 command1='useradd -c username -u uid -g 100 -d /home/username -s /bin/bash username'
 command1=${command1//"username"/$1}

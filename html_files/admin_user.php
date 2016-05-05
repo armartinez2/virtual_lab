@@ -1,3 +1,7 @@
+<!--
+this page is used for the admin to see all of the users
+
+-->
 <!DOCTYPE html>
 <html>
 
@@ -17,8 +21,8 @@
             }
             div.relative {
                 position: absolute;
-                bottom: 200px;
-		top: 200px;
+                bottom: 300px;
+		top: 200px
                 right: 0;
                 left: 50%;
                 width: 100px;
@@ -59,6 +63,9 @@
               font-family: "Times New Roman", Times, serif;
               color: gold;
             }
+	    .jumbotron {
+		background-size: 100%;
+	    }
             h1{
               font-family: "Times New Roman", Times, serif;
               color: gold;
@@ -93,25 +100,49 @@
 	on this machine in order for users to access Xen Orchestra <br>
 	they must first be users on the gateway. If necessary you can <br>
 	delete any of these users if they have been misusing the xen<br> 
-	server or if they are no longer using xen.<br>
+	server or if they are no longer using xen.<br></h4></p>
+	<p><h4>
+	The Windows and Linux buttons are used for XenCenter<br> and XenManager Downloads.<br></h4></p>
+	<p><h4>
+	The Xen Orchestra Button will take you to Xen's Web Interface.<br></h4></p>
 </h4></p>
-</div>
- <!-- <div class="container">
-          <h1><b>Delete User</b></h1><br><br>
-                  <form class="form-horizontal" action="forgot_password.php" method="get">
-                      <div class="form-group">
-                            <label for="email" class="col-sm-2 control-label"> User-Name: </label>
-                                <div class="col-sm-10">
-                                  <input type="text" class="form-control" name="email" placeholder="Delete"><br><br>
-                                </div>
-                      </div><br>
-                      <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button href="forgot_password.php" type="submit" class="btn btn-danger btn-md">Delete</button>
-                        </div>
-                      </div>
-                  </form>
-  </div>-->
+</div><br><br><br>
+    <div class="container">
+             <form class ="form-vertical" action="http://192.168.7.176" method="get">
+               <div class="form-group">
+                 <div class="col-sm-offset-1 col-sm-10">
+                   <button href="http://192.168.7.176" type="submit" method="get" class="btn btn-danger btn-lg">Windows
+                </div>
+              </div>
+            </form>
+          </div>
+   <div class="container">
+              <form class ="form-vertical" action="http://192.168.7.145/php_files/download.html" method="get">
+                <div class="form-group">
+                 <div class="col-sm-offset-1 col-sm-10">
+                     <button href="http://192.168.7.145/php_files/download.html" type="submit" method="get" class="btn btn-danger btn-lg">Linux
+                </div>
+              </div>
+            </form>
+        </div>
+   <div class="container">
+              <form class ="form-vertical" action="http://192.168.7.146" method="get">
+                <div class="form-group">
+                 <div class="col-sm-offset-1 col-sm-10">
+                     <button href="http://192.168.7.146" type="submit" method="get" class="btn btn-danger btn-lg">Xen Orchestra
+                </div>
+              </div>
+            </form>
+	</div><br>
+<div class="container">
+            <form class="form-vertical" action="../html_files/update_email.html" method="get">
+              <form class="form-group">
+                <div class="col-sm-offset-1 col-sm-10">
+                  <button href="../html_files/update_email.html" type="submit" method="get" class="btn btn-danger btn-lg ">Update Info
+                </div>
+             </form>
+	</form>
+    </div><br><br><br><br>
 
 <div class="relative">
       <table class="table table-bordered" style="width:100%">

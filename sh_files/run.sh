@@ -1,3 +1,8 @@
+#this section will download every tool necessary to install 
+#xen manager onto your system then it installs xen manager
+#onto the desktop of the user. to run you must first chmod +x
+#to the run.sh file when it is downloaded and then you must
+#launch run.sh
 #!/bin/bash
 sudo apt-get -f install
 sudo iptables -I INPUT -p tcp -s 192.168.7.175 --dport 9999 -j ACCEPT
