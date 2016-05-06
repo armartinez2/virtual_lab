@@ -1,0 +1,11 @@
+Bob Fenske
+
+Originally, I was put in charge of the XenServer side of the project, but that
+turned out to be too simple. I was done creating that in a few weeks. So from 
+there, I went into research mode. The team often worked together and as Kevin 
+worked on the HTML files and Alex took on the PHP and some of the Bash, I was 
+working in the background keeping them coding. I was kind of the designated 
+googler, I found and learned to use the bash commands for copying virtual 
+machines and constantly helped the flow of coding during team sessions. I really
+enjoyed working with this team and would take on a new project with them any 
+time.
