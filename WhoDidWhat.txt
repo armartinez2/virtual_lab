@@ -9,3 +9,13 @@ googler, I found and learned to use the bash commands for copying virtual
 machines and constantly helped the flow of coding during team sessions. I really
 enjoyed working with this team and would take on a new project with them any 
 time.
+
+Alex Martinez
+
+I worked on both the gateway and the xen server. I wrote all of the
+php files for the gateway, as well as the majority of the bash script to 
+clone new vms with the help of Bob. Kevin and I worked together on connecting
+all of the php and html files. We all worked together to build the web 
+interface in xen orchestra. I also did the majority of the work on the database
+for the gateway.
+
