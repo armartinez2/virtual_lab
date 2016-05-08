@@ -19,3 +19,10 @@ all of the php and html files. We all worked together to build the web
 interface in xen orchestra. I also did the majority of the work on the database
 for the gateway.
 
+Kevin Chlopek
+
+I worked on both the Gateway and the Download of the Xen Server. I wrote all
+the HTML files and helped Alex code the PHP along with a small portion of
+the bash download for Xenmanager. Alex and I worked through downloading Xen 
+Orchestra and then Bob took over figuring out features and how Xen 
+Orchestra works especially with controlling users.
