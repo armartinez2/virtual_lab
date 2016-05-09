@@ -1,0 +1,7 @@
+For one server with 64GB of ram and 12 core processor, $5500
+Gateway: simple hardware $500
+Orchestra: $200/mo
+
+Total:$6000 hardware $200/mo for XenOrchestra
+
+Unknowns: Power, cooling, and maintenance. 
